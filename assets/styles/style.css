@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+.cards-container {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-wrapper {
+  --img-size: 100px;
+  --main-bg-color: #17a3b8;
+  min-width: calc(var(--img-size) * 2);
+  width: 100%;
+  max-width: calc(var(--img-size) * 4);
+  border: 1px solid var(--main-bg-color);
+  display: inline-block;
+}
+
+.bg-header {
+  height: calc(var(--img-size) * 1.5);
+  background-color: var(--main-bg-color);
+}
+
+.card-content {
+  padding: 0px 25px;
+}
+
+.photo-wraper {
+  margin-bottom: 20px;
+}
+
+.photo-proffile {
+  width: var(--img-size);
+  height: var(--img-size);
+  padding: 5px;
+  border: 1px solid #b9b8b8;
+  border-radius: 50%;
+  margin-top: calc(var(--img-size) * -0.5);
+  object-fit: cover;
+  object-position: top center;
+  background-color: white;
+}
+
+.user-name {
+  display: block;
+  margin: 0px auto;
+}
+
+.user-adddres {
+  display: block;
+}
+
+.capitalazie {
+  text-transform: capitalize;
+}
+
+.apper {
+  max-width: 120px;
+  display: inline-block;
+}
+
+.btn-container {
+  margin: 15px auto;
+  border-top: 2px solid #b9b8b8;
+  border-bottom: 2px solid #b9b8b8;
+  padding: 15px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 13px;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+.follow {
+  /* max-width: 69px; */
+  width: 84px;
+  background-color: rgb(35, 220, 35);
+}
+.bg {
+  width: 160px;
+  background-color: var(--main-bg-color);
+  color: white;
+}
+
+.disription-user {
+  margin: 20px auto;
+}
+
+.card-footer {
+  background-color: var(--main-bg-color);
+  padding: 10px;
+}
+
+.card-item-social {
+  display: inline-block;
+}
+
+.icon-fb {
+  background-image: url(./../icons/facebook.png);
+}
+
+.icon-google {
+  background-image: url(./../icons/google-plus.png);
+}
+
+.icon-twitter {
+  background-image: url(./../icons/twitter.png);
+}
+.link-social {
+  width: 36px;
+  height: 36px;
+  display: block;
+}
+.overflow {
+  /* display: inline-block;
+  max-width: 340px; */
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
